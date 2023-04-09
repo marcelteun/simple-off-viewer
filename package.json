@@ -1,0 +1,12 @@
+{
+  "name": "simple-off-viewer",
+  "version": "1.0.0",
+  "description": "A simple Antiprism Off viewer for webpage inclusion",
+  "main": "off-file-viewer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
