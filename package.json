@@ -4,9 +4,15 @@
   "description": "A simple Antiprism Off viewer for webpage inclusion",
   "main": "off-file-viewer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "three": "^0.151.3",
+    "vite": "^4.2.1"
+  }
 }

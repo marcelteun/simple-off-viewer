@@ -275,7 +275,7 @@ function displayPolyhedron(data) {
             color: 0xffffff,
             roughness: 0.5,
             metalness: 0.0,
-            vertexColors: THREE.FaceColors,
+            vertexColors: true,
             side: THREE.DoubleSide,
             transparent: true,
             opacity: 1.0 - gParameters.transparency,
