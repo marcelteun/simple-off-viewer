@@ -3,8 +3,8 @@ import {
     TrackballControls
 } from './js/TrackballControls.js';
 import {
-    AntiprismOffLoader
-} from './js/AntiprismOffLoader.js';
+    OffFileLoader
+} from './js/OffFileLoader.js';
 
 
 // MAIN
@@ -405,7 +405,7 @@ function updatePolyhedron(ind) {
 
 
 function loadOffPoly(obj) {
-    const loader = new AntiprismOffLoader();
+    const loader = new OffFileLoader();
     // load a resource
     loader.load(
         // resource URL
@@ -482,7 +482,7 @@ function reinstantiateMeshes(obj) {
 }
 
 function parseOff(filename, text) {
-    const loader = new AntiprismOffLoader();
+    const loader = new OffFileLoader();
     const obj = loader.parse(text);
     addMissingColors(obj);
     obj["filename"] = filename;

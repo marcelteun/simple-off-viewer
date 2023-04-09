@@ -5,7 +5,7 @@ import {
 
 const _face_vertex_data_separator_pattern = /\s+/;
 
-class AntiprismOffLoader extends Loader {
+class OffFileLoader extends Loader {
 
 	constructor(manager) {
 		super(manager);
@@ -152,5 +152,5 @@ class AntiprismOffLoader extends Loader {
 }
 
 export {
-	AntiprismOffLoader
+	OffFileLoader
 };

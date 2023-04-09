@@ -1,2 +1,2 @@
 # simple-off-viewer
-A simple Antiprism Off viewer for webpage inclusion
+A simple Off file viewer for webpage inclusion
